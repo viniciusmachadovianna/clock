@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="pomodoro" class="active">
+                <img src="assets/pomodoro.svg" alt="Pomodoro icon">
+                <span>Pomodoro</span>
+            </li>
+            <li id="timer">
+                <img src="assets/timer.svg" alt="Timer icon">
+                <span>Timer</span>
+            </li>
+            <li id="alarm">
+                <img src="assets/alarm.svg" alt="Alarm icon">
+                <span>Alarm</span>
+            </li>
+            <li id="stopwatch">
+                <img src="assets/stopwatch.svg" alt="Stopwatch icon">
+                <span>Stopwatch</span>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="pomodoro active">
+            <span>25:00</span>
+        </section>
+        <section class="timer">
+            <span>timer</span>
+        </section>
+        <section class="alarm">
+            <span>alarm</span>
+        </section>
+        <section class="stopwatch">
+            <span>stopwatch</span>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
